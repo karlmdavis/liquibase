@@ -324,10 +324,9 @@
 
         </repository>
         <snapshotRepository>
-            <uniqueVersion>false</uniqueVersion>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sontatype Snapshot Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>justdavis.com-nexus</id>
+            <uniqueVersion>true</uniqueVersion>
+            <url>https://justdavis.com/nexus/content/repositories/snapshots-opensource</url>
         </snapshotRepository>
     </distributionManagement>
 
